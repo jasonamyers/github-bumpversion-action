@@ -4,7 +4,6 @@ A Github Action to use the [bumpversion](https://pypi.org/project/bumpversion/) 
 
 ![Lint Status](https://github.com/jasonamyers/github-bumpversion-action/workflows/Lint%20Code%20Base/badge.svg)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/jasonamyers/github-bumpversion-action?label=Github%20Release)](https://github.com/jaumann/github-bumpversion-action/releases)
-[![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/jasonamyers/github-bumpversion-action?sort=semver&label=Docker%20Version)](https://hub.docker.com/r/jaumann/github-bumpversion-action)
 [![License](https://img.shields.io/github/license/jasonamyers/github-bumpversion-action)](LICENSE)
 
 ## Usage
