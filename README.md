@@ -1,6 +1,6 @@
 # github-bumpversion-action
 
-A Github Action to use the [bumpversion](https://pypi.org/project/bumpversion/) application to bump and tag branches
+A GitHub Action to use the [bumpversion](https://pypi.org/project/bumpversion/) application to bump and tag branches
 
 ![Lint Status](https://github.com/jasonamyers/github-bumpversion-action/workflows/Lint%20Code%20Base/badge.svg)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/jasonamyers/github-bumpversion-action?label=Github%20Release)](https://github.com/jaumann/github-bumpversion-action/releases)
@@ -34,7 +34,7 @@ jobs:
 
 **Environment Variables**
 
-* **GITHUB_TOKEN** ***(required)*** - Required for permission to tag the repo.
+* **GITHUB_TOKEN** ***(required)*** - Required for permission to tag the repository.
 * **DEFAULT_BUMP** *(optional)* - Which type of bump to use when none explicitly provided (default: `minor`).
 * **SOURCE** *(optional)* - Operate on a relative path under $GITHUB_WORKSPACE.
 * **DRY_RUN** *(optional)* - Determine the next version without tagging the branch. The workflow can use the outputs `new_tag` and `tag` in subsequent steps. Possible values are ```true``` and ```false``` (default).
@@ -59,9 +59,9 @@ jobs:
 
 ### Workflow
 
-* Add this action to your repo
-* Setup a .bumpversion.cfg file in the root of your repo
-  * Note: See the [.bumpversion.cfg](.bumpversion.cfg) in this repo for an example
+* Add this action to your repository
+* Setup a .bumpversion.cfg file in the root of your repository
+  * Note: See the [.bumpversion.cfg](.bumpversion.cfg) in this repository for an example
 * Commit some changes
 * Either push to master or open a PR
 * On push (or merge) to `master`, the action will:
@@ -70,4 +70,4 @@ jobs:
 
 ### Credits
 
-[anotherNick/github-tag-action](https://github.com/anothrNick/github-tag-action/) - I used this repo extensively as a base for this project
+[anotherNick/github-tag-action](https://github.com/anothrNick/github-tag-action/) - I used this repository extensively as a base for this project
